@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images:{
+        remotePatterns:[
+            {
+                protocol: 'https',
+                hostname:'transparencia.ro.gov.br',
+                port:'',
+                pathname:'/img/**'
+            },
+        ],
+    },
+}
 
 module.exports = nextConfig
