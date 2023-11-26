@@ -1,6 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clone Portal da Transparência - RO
 
-## Getting Started
+Projeto Pessoal em [Next.js](https://nextjs.org/).
+
+## Libs
+
+Next.js 14.3
+
+React
+
+TailwindCSS
 
 First, run the development server:
 
