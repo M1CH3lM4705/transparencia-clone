@@ -17,33 +17,33 @@ export function AcessoInformacao() {
     <Section className="flex justify-center">
       <div className="flex flex-col items-center gap-5 mt-8">
         <DisplayType type={"h2"} className="font-bold uppercase text-[14px]">Acesso à Informação | Ouvidoria | Fala.BR</DisplayType>
-        <div className="flex gap-3">
-          <Card className="w-[118px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-secondary-foreground hover:transform-none" imageUrl={imagesUrl.img1} width={50} heigth={50} >
+        <div className="flex flex-row gap-3 overflow-x-auto">
+          <Card className="sm:w-[198.11px] w-[118px] sm:h-[145px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-secondary-foreground hover:transform-none" imageUrl={imagesUrl.img1} width={50} heigth={50} >
             <CardText className="bg-transparent text-[9px] h-[13.5px] mt-[10px]">
               <span className="text-white uppercase">acesso a informacao</span>
             </CardText>
           </Card>
-          <Card className="w-[118px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-secondary hover:transform-none" imageUrl={imagesUrl.img2} width={50} heigth={50} >
+          <Card className="sm:w-[198.11px] w-[118px] sm:h-[145px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-secondary hover:transform-none" imageUrl={imagesUrl.img2} width={50} heigth={50} >
             <CardText className="bg-transparent text-[9px] h-[13.5px] mt-[10px]" >
               <span className="text-white uppercase">Denúncia</span>
             </CardText>
           </Card>
-          <Card className="w-[118px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-primary hover:transform-none" imageUrl={imagesUrl.img3}width={50} heigth={50} >
+          <Card className="sm:w-[198.11px] w-[118px] sm:h-[145px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-primary hover:transform-none" imageUrl={imagesUrl.img3}width={50} heigth={50} >
             <CardText className="bg-transparent text-[9px] h-[13.5px] mt-[10px]">
               <span className="text-white uppercase">Elogio</span>
             </CardText>
           </Card>
-          <Card className="w-[118px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-secondary-foreground hover:transform-none" imageUrl={imagesUrl.img4} width={50} heigth={50}>
+          <Card className="sm:w-[198.11px] w-[118px] sm:h-[145px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-secondary-foreground hover:transform-none" imageUrl={imagesUrl.img4} width={50} heigth={50}>
             <CardText className="bg-transparent text-[9px] h-[13.5px] mt-[10px]">
               <span className="text-white uppercase">Reclamação</span>
             </CardText>
           </Card>
-          <Card className="w-[118px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-secondary hover:transform-none" imageUrl={imagesUrl.img5} width={50} heigth={50} >
+          <Card className="sm:w-[198.11px] w-[118px] sm:h-[145px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-secondary hover:transform-none" imageUrl={imagesUrl.img5} width={50} heigth={50} >
             <CardText className="bg-transparent text-[9px] h-[13.5px] mt-[10px]">
               <span className="text-white uppercase">Sugestão</span>
             </CardText>
           </Card>
-          <Card className="w-[118px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-primary hover:transform-none" imageUrl={imagesUrl.img6} width={50} heigth={50} >
+          <Card className="sm:w-[198.11px] w-[118px] sm:h-[145px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-primary hover:transform-none" imageUrl={imagesUrl.img6} width={50} heigth={50} >
             <CardText className="bg-transparent text-[9px] h-[13.5px] mt-[10px]" >
               <span className="text-white uppercase">Fala BR</span>
             </CardText>

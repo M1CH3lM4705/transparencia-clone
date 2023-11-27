@@ -1,14 +1,14 @@
-import { Url } from "next/dist/shared/lib/router/router"
+import { cn } from "@/lib/utils"
 import Link, { LinkProps } from "next/link"
-import { ReactNode } from "react"
+import { HtmlHTMLAttributes, ReactNode } from "react"
 
-type MenuLinkRootProps = LinkProps &{
+type MenuLinkRootProps = HtmlHTMLAttributes<HTMLElement> & LinkProps &{
     children: ReactNode,
 }
 
 export function MenuLinkRoot({children, href, ...rest}:MenuLinkRootProps) {
     return (
-        <Link className="flex items-center" {...rest} href={`${href}`}>
+        <Link className={cn("flex items-center", rest.className)} {...rest} href={`${href}`}>
            {children}
         </Link>
     )

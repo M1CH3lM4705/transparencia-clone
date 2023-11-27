@@ -1,19 +1,19 @@
 import { AcessoInformacao } from "@/components/AccessInfomationSection/AcessoInformacao";
-import { Address } from "@/components/AddressSection/Address";
 import { AreasAtuacao } from "@/components/Atuacao/AreasAtuacao";
 import { Banner } from "@/components/Banner";
 import { ButtonsSection } from "@/components/ButtonsSection/ButtonsSection";
 import { SectionCards } from "@/components/CardSection/SectionCards";
+import { Contact } from "@/components/Contact/Contact";
 import { HorizontalCards } from "@/components/HorizantalCards/HorizontalCards";
 import { SearchAll } from "@/components/SearchAll";
-import { SocialMedia } from "@/components/SocialMedia/SocialMedia";
+
 import { Participation } from "@/components/SocialParticipationSection/Participation";
-import { VideoInfo } from "@/components/VideoTransp/VideoInfo";
+
 
 
 export default function Home() {
   return (
-    <main suppressHydrationWarning={true}>
+    <main className="" suppressHydrationWarning={true}>
       <SearchAll />
       <Banner />
       <AreasAtuacao />
@@ -22,9 +22,7 @@ export default function Home() {
       <SectionCards />
       <Participation />
       <AcessoInformacao />
-      <Address />
-      <VideoInfo />
-      <SocialMedia />
+      <Contact />
     </main>
   )
 }

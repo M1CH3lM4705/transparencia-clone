@@ -8,46 +8,46 @@ export function MenuAcessibilidade() {
 
                 <MenuLink.Root href={'#'}>
                     <MenuLink.Icon icon={Network} size={14} />
-                    <MenuLink.Text className='text-[11px]' text={'MAPA DO SITE'} />
+                    <MenuLink.Text className='text-[11px] max-md:hidden' text={'MAPA DO SITE'} />
                 </MenuLink.Root>
 
                 <MenuLink.Root href={'#'}>
                     <MenuLink.Icon icon={Phone} size={14} />
-                    <MenuLink.Text className='text-[11px]' text={'CONTATOS'} />
+                    <MenuLink.Text className='text-[11px] max-md:hidden' text={'CONTATOS'} />
                 </MenuLink.Root>
 
 
                 <MenuLink.Root href={'#'}>
                     <MenuLink.Icon icon={Accessibility} size={14} />
-                    <MenuLink.Text className='text-[11px]' text={'ACESSIBILIDADE'} />
+                    <MenuLink.Text className='text-[11px] max-md:hidden' text={'ACESSIBILIDADE'} />
                 </MenuLink.Root>
 
                 <MenuLink.Root href={'#'}>
-                    <MenuLink.Text className='text-[11px]' text={'A'}>
+                    <MenuLink.Text className='sm:text-[11px] text-[16px]' text={'A'}>
                     </MenuLink.Text>
                     <MenuLink.Icon icon={Equal} size={14} />
                 </MenuLink.Root>
 
                 <MenuLink.Root href={'#'}>
-                    <MenuLink.Text className='text-[11px]' text={'A'}>
+                    <MenuLink.Text className='sm:text-[11px] text-[16px]' text={'A'}>
                     </MenuLink.Text>
                     <MenuLink.Icon icon={Plus} size={14} />
                 </MenuLink.Root>
 
                 <MenuLink.Root href={'#'}>
-                    <MenuLink.Text className='text-[11px]' text={'A'}>
+                    <MenuLink.Text className='sm:text-[11px] text-[16px]' text={'A'}>
                     </MenuLink.Text>
                     <MenuLink.Icon icon={Minus} size={14} />
                 </MenuLink.Root>
 
                 <MenuLink.Root href={'#'}>
                     <MenuLink.Icon icon={Phone} size={14} />
-                    <MenuLink.Text className='text-[11px]' text={'ALTRO CONTRASTE'} />
+                    <MenuLink.Text className='text-[11px] max-md:hidden' text={'ALTRO CONTRASTE'} />
                 </MenuLink.Root>
 
                 <MenuLink.Root href={'#'}>
                     <MenuLink.Icon icon={Hand} size={14} />
-                    <MenuLink.Text className='text-[11px]' text={'LIBRAS'} />
+                    <MenuLink.Text className='text-[11px] max-md:hidden' text={'LIBRAS'} />
                 </MenuLink.Root>
             </nav>
         </div>

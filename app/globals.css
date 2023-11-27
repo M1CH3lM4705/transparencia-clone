@@ -45,22 +45,32 @@ body{
   }
 
   .dashed-area:nth-child(1){
-    @apply after:absolute after:content-[''] after:top-1/4 after:left-a2 after:w-48 after:border after:border-dashed after:bg-secondary;
+    @apply after:absolute after:content-[''] after:top-1/4 after:left-a2 after:w-48 after:border after:border-dashed after:bg-secondary
+      max-[1524px]:after:content-none;
   }
 
   .dashed-area:nth-child(2){
-    @apply after:absolute after:content-[''] after:top-1/4 after:left-a3 after:w-48 after:border after:border-dashed after:bg-secondary;
+    @apply after:absolute after:content-[''] after:top-1/4 after:left-a3 after:w-48 after:border after:border-dashed after:bg-secondary
+      max-[1524px]:after:content-none;
   }
 
   .dashed-area:nth-child(3){
-    @apply after:absolute after:content-[''] after:top-1/4 after:left-a4 after:w-48 after:border after:border-dashed after:bg-secondary;
+    @apply after:absolute after:content-[''] after:top-1/4 after:left-a4 after:w-48 after:border after:border-dashed after:bg-secondary
+      max-[1524px]:after:content-none;
   }
 
   .dashed-area:nth-child(4){
-    @apply after:absolute after:content-[''] after:top-1/4 after:left-a5 after:w-48 after:border after:border-dashed after:bg-secondary;
+    @apply after:absolute after:content-[''] after:top-1/4 after:left-a5 after:w-48 after:border after:border-dashed after:bg-secondary
+      max-[1524px]:after:content-none;
   }
 
   .dashed-area:nth-child(5){
     @apply after:content-none;
+  }
+}
+
+@layer utilities{
+  .over-overflow-important{
+    overflow-x: auto !important;
   }
 }

@@ -1,13 +1,12 @@
 'use client'
 
 import { Section } from "../Section/SectionContainer";
-import { invetoryButtonSection } from "@/lib/Transp/buttonSection";
 import { ButtonSection } from "./ButtonSection";
 import { ExternalLink } from "lucide-react";
 
 export function ButtonsSection() {
   return (
-    <Section className="bg-white h-64 flex justify-center items-center">
+    <Section className="bg-white h-64 max-[1091px]:h-auto max-[1091px]:py-10 flex justify-center items-center">
       <div className="flex flex-wrap w-5/5 justify-center gap-10">
         {/* {(
           invetoryButtonSection.map(({_id, text, icon, className}) => (

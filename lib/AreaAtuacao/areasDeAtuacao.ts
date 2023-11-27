@@ -17,7 +17,7 @@ export const invetory: Array<AreasDeAtuacao> = [
         icon:BookOpenText,
         text:'EDUCAÇÃO',
         value:'R$ 1.898.323.559,37',
-        className:'after:left-a2'
+        className:''
     },
     {
         _id:2,

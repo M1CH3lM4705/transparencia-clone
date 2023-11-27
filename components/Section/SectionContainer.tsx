@@ -7,7 +7,7 @@ type SectionProps = HtmlHTMLAttributes<HTMLElement> & {
 }
 export function Section({ children, className }: SectionProps){
     return(
-        <section className={twMerge("md:container md:mx-auto", className)}>
+        <section className={twMerge("", className)}>
             {children}
         </section>
     )
