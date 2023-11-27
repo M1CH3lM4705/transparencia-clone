@@ -70,9 +70,9 @@ const config: Config = {
       },
       spacing:{
         'a2': '9.4rem',
-        'a3': '29.4rem',
-        'a4': '49.4rem',
-        'a5': '69.4rem',
+        'a3': '36.4rem',
+        'a4': '62.8rem',
+        'a5': '88.8rem',
       },
       height:{
         '58': '14.688rem'
