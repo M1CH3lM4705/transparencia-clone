@@ -15,7 +15,7 @@ export function AreasAtuacao() {
           {'Gastos do governo no ano corrente por área de atuação'}
         </DisplayType>
       </div>
-      <div className="flex justify-between relative max-lg:overflow-y-auto max-md:gap-6">
+      <div className="flex justify-center w-full overflow-x-auto gap-5 sm:md:justify-between sm:md:gap-6 sm:md:overflow-hidden sm:md:relative">
         {(invetory.map(({ _id, icon, text, value, className }) => (
 
           <AreaAtuacao className={_id !== 5 ? className : ''} key={_id} icon={icon!} text={text} value={value} />

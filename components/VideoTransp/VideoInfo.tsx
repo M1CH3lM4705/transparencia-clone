@@ -6,9 +6,12 @@ import { useEffect, useState } from "react";
 
 export function VideoInfo() {
   const [isClient, setIsClient] = useState(false)
-
+  const [widhtVideo, setWidthVide] = useState(420)
   useEffect(() => {
     setIsClient(true)
+
+    if(window.screenX < 420)
+      setWidthVide(360)
   }, [])
 
   return (isClient ?
@@ -16,7 +19,7 @@ export function VideoInfo() {
       <div className="sm:shadow-2xl">
         <ReactPlayer
           url='https://transparencia.ro.gov.br/video/transparencia_tutorial.mp4'
-          width={420}
+          width={widhtVideo}
           height={240}
           controls
         />

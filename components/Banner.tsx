@@ -5,7 +5,8 @@ import { Carousel } from "./Carousel/Carousel";
 import { Section } from "./Section/SectionContainer";
 
 const slides = [
-  'https://transparencia.ro.gov.br/img/Home/Index/banner/banner-slider-qualidade-em-transparencia.png',
+  'https://transparencia.ro.gov.br/img/Home/Index/banner/banner-slider-rondonia-selo-diamante-em-transparencia.jpg',
+  'https://transparencia.ro.gov.br/img/Home/Index/banner/banner-slider-radar-da-transparencia.png',
   'https://transparencia.ro.gov.br/img/Home/Index/banner/banner-slider-qualidade-informacao-fiscal-contabil-nota-a.png',
   'https://transparencia.ro.gov.br/img/Home/Index/banner/banner-slider-e-sic-informacao.png',
   'https://transparencia.ro.gov.br/img/Home/Index/banner/banner-slider-portal-do-cidadao.png',
