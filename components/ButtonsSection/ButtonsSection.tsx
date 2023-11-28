@@ -6,8 +6,8 @@ import { ExternalLink } from "lucide-react";
 
 export function ButtonsSection() {
   return (
-    <Section className="bg-white h-64 sm:flex sm:items-center sm:justify-center py-10 sm:h-auto">
-      <div className="sm:flex sm:flex-wrap sm:w-4/5 sm:justify-center sm:items-center gap-10">
+    <Section className="bg-white flex justify-center sm:flex sm:items-center sm:justify-center py-10 sm:h-auto h-[670px]">
+      <div className="sm:flex sm:flex-wrap sm:w-4/5 sm:justify-center sm:items-center sm:gap-10 flex flex-wrap justify-center">
         {/* {(
           invetoryButtonSection.map(({_id, text, icon, className}) => (
             <ButtonSection key={_id} text={text} icon={icon!} className={className} />
