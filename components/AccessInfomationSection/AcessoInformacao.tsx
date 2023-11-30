@@ -17,7 +17,7 @@ export function AcessoInformacao() {
     <Section className="">
       <div className="grid grid-cols-1 justify-items-center gap-5 mt-8">
         <DisplayType type={"h2"} className="font-bold uppercase text-[14px]">Acesso à Informação | Ouvidoria | Fala.BR</DisplayType>
-        <div className="w-full sm:md:w-auto grid grid-flow-col justify-self-start sm:md:justify-self-center auto-cols-[32%] overflow-x-scroll overscroll-x-contain md:overflow-x-auto sm:md:auto-cols-auto sm:md:gap-3">
+        <div className="w-full sm:md:lg:w-auto grid grid-flow-col justify-self-start sm:md:lg:justify-self-center auto-cols-[32%] overflow-x-scroll overscroll-x-contain sm:md:lg:overflow-x-auto sm:md:auto-cols-auto sm:md:gap-3">
           <Card className="sm:w-[198.11px] w-[118px] sm:h-[145px] h-[145px] items-center justify-center hover:scale-100 hover:shadow-none hover:transition-none bg-secondary-foreground hover:transform-none" imageUrl={imagesUrl.img1} width={50} heigth={50} >
             <CardText className="bg-transparent text-[9px] h-[13.5px] mt-[10px]">
               <span className="text-white uppercase">acesso a informacao</span>

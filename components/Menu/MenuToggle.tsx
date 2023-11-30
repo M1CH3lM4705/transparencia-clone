@@ -1,10 +1,19 @@
-import { Menu } from "lucide-react";
+'use client'
+
+import { Menu, X } from "lucide-react";
 import { MenuLink } from "./index";
 
-export function MenuToggle(){
-    return(
-        <MenuLink.Root className="min-[1105px]:hidden" href='/'>
-            <MenuLink.Icon icon={Menu} color='white' />
-        </MenuLink.Root>
-    )
+import { useContext } from "react";
+import { MenuToggleContext } from "@/contexts/MenuToggleContext";
+
+export function MenuToggle() {
+  const { active, toggleMenu } = useContext(MenuToggleContext)
+
+  return (
+    <MenuLink.Root onClick={toggleMenu} className="min-[1105px]:hidden" href='/'>
+      {(active 
+        ? <MenuLink.Icon icon={X} color='white' />    
+        : <MenuLink.Icon icon={Menu} color='white' />)}
+    </MenuLink.Root>
+  )
 }
