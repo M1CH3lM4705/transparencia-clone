@@ -4,7 +4,7 @@ import { AnchorHTMLAttributes, HtmlHTMLAttributes, ReactNode } from "react"
 
 type MenuLinkRootProps = AnchorHTMLAttributes<HTMLElement> & LinkProps &{
     children: ReactNode,
-    className:string
+    className?:string
 }
 
 export function MenuLinkRoot({children, href, className, ...rest}:MenuLinkRootProps) {
