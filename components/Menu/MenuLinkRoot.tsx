@@ -8,6 +8,7 @@ type MenuLinkRootProps = AnchorHTMLAttributes<HTMLElement> & LinkProps &{
 }
 
 export function MenuLinkRoot({children, href, className, ...rest}:MenuLinkRootProps) {
+    console.log(href)
     return (
         <Link className={cn("flex items-center", className)} {...rest} href={`${href}`}>
            {children}
